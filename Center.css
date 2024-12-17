@@ -1,0 +1,153 @@
+.centerpart{
+    background-color: black;
+   
+    padding-top: 1%;
+}
+
+.heading{
+    text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    color:rgb(200, 210, 10);
+}
+
+.content{
+    text-align:left;
+    color:rgb(156, 152, 152);
+    padding: 3px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 30px;
+    margin: 4px 10px;
+}
+
+/*cards*/
+/* card1*/
+.cards{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;    
+
+}
+.card-container1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title1{
+    text-align: center;
+    color:rgb(236, 236, 236);
+}
+.card-body1{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.img-container1{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card2 */
+
+.card-container2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title2{
+    text-align: center;
+    color:rgb(236, 236, 236);
+}
+.card-body2{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.img-container2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card3 */
+
+.card-container3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title3{
+    text-align: center;
+    color:rgb(236, 236, 236);
+}
+.card-body3{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.img-container3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card4 */
+
+.card-container4{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title4{
+    text-align: center;
+    color:rgb(236, 236, 236);
+}
+.card-body4{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+.img-container4{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}

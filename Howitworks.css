@@ -1,0 +1,603 @@
+.howitworks{
+    background-color: rgb(255, 255, 255);
+}
+.pic1{
+    height: 600px;
+    width:1520px;
+}
+
+.himg-h{
+    font-size: 55px;
+  }
+  .himg-t{
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-45%,-130%);
+    font-size: 20px;
+  }
+
+.hl1{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+.hl2{
+    text-decoration: none;
+    color:rgb(225,75,8);
+    font-weight: 600;
+    cursor: pointer;
+  }
+.t1{
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    margin:  0px 40px;
+    text-align: justify;  
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.t1::after{
+  content: "";
+  display:flex;
+  width: 5%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgb(255, 75, 8); /* Adjust the color as needed */
+  position: absolute;
+  border-radius: 15px;
+  bottom: -17px; /* Adjust the distance from the text as needed */
+  left: 725px;
+  top:1040px;
+
+}
+.c1{
+    color:rgb(0, 0, 0);
+    margin:  0px 55px;
+    text-align:left;
+    font-size: 18px;
+    padding-top: 30px;
+    margin-left: 250px;
+    margin-right: 150px;
+}
+/*.t2{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-bottom: 30px;
+}
+
+.topic{
+    color:rgb(200, 210, 10);
+    margin:  0px 55px;
+    text-align: justify;
+    padding-bottom: 10px;
+   
+}
+.c2{
+    color:rgb(156, 152, 152);
+    margin:  0px 55px;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 30px;
+}*/
+
+
+.pt{
+    position:absolute;
+    color:rgb(0, 0, 0);
+    transform:translate(-50%,-50%);
+    font-size: 80px;
+    right: -150px;
+    top:55%;
+    text-align: center;
+    
+}
+.pc{
+    position:absolute;
+    color:rgb(0, 0, 0);
+    transform:translate(-50%,-50%);
+    right: -100px;
+    font-size: 35px;
+    top:74%;
+    text-align:right;
+}
+
+
+/*-----------------box---------------*/
+
+.hbox{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    transform:translate(-1%,-17%);
+
+    
+
+}
+.box-container1{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 5px -1px;
+    background-color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box-container1:hover{
+    transform: translateY(-15px);
+    
+}
+.box-title1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.box-body1{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.logo-container1{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(255, 255, 255);
+    font-size:65px;
+    font-weight:bolder;
+    
+}
+
+/* card2 */
+
+.box-container2{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    background-color: black;
+    box-shadow: 0px 0px 5px -1px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box-container2:hover{
+    transform: translateY(-15px);
+    
+}
+
+.box-title2{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.box-body2{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.logo-container2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(255, 255, 255);
+    font-size:65px;
+    font-weight:bolder;
+}
+
+/* card3 */
+
+.box-container3{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    background-color: black;
+    box-shadow: 0px 0px 5px -1px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box-container3:hover{
+    transform: translateY(-15px);
+    
+}
+
+.box-title3{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.box-body3{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.logo-container3{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(255, 255, 255);
+    font-size:65px;
+    font-weight:bolder;
+    
+}
+
+
+
+/* card4 */
+
+.box-container4{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    background-color: black;
+    box-shadow: 0px 0px 5px -1px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box-container4:hover{
+    transform: translateY(-15px);
+    
+
+}
+.box-title4{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.box-body4{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+.logo-container4{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(255, 255, 255);
+    font-size:65px;
+    font-weight:bolder;
+    
+}
+/****************1*****************/
+.hbox2{
+    padding: 20px;
+    padding-left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hcont1{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    background-color: rgb(255, 255, 255);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.himg1{
+    position: relative;
+    cursor: pointer;
+}
+.himgoverlay1{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+.himgoverlay1:hover{
+    opacity: 1;
+
+}
+.himgoverlay1 h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    margin-bottom: 15px;
+}
+.himgoverlay1 p{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    
+}
+.himgoverlay1:hover > *{
+    transform: translateY(25px);
+}
+
+/***************2*****************/
+
+.hcont2{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    background-color: rgb(255, 255, 255);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.himg2{
+    position: relative;
+    cursor: pointer;
+}
+.himgoverlay2{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    color: white;
+    top:0;
+    width: 100%;
+    height: 91%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+.himgoverlay2:hover{
+    opacity: 1;
+
+}
+.himgoverlay2 h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.himgoverlay2 p{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    
+}
+.himgoverlay2:hover > *{
+    transform: translateY(25px);
+}
+/**************3**************/
+.hcont3{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.himg3{
+    position: relative;
+    cursor: pointer;
+}
+.himgoverlay3{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    color: white;
+    top:0;
+    width: 100%;
+    height: 91%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+.himgoverlay3:hover{
+    opacity: 1;
+
+}
+.himgoverlay3 h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.himgoverlay3 p{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    
+}
+.himgoverlay3:hover > *{
+    transform: translateY(25px);
+}
+/**********4***************/
+.hcont4{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 300px;
+    overflow:hidden;
+    background-color: rgb(255, 255, 255);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.himg4{
+    position: relative;
+    cursor: pointer;
+}
+.himgoverlay4{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    color: white;
+    top:0;
+    width: 100%;
+    height: 91%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+.himgoverlay4:hover{
+    opacity: 1;
+
+}
+.himgoverlay4 h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-top: 90px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.himgoverlay4 p{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    
+}
+.himgoverlay:hover > *{
+    transform: translateY(25px);
+}
+
+
+/*-------boxes---------*/
+
+
+
+.boxes{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+    padding-left:180px ; 
+    padding-right: 180px; 
+
+}
+.b1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px -1px;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.b1:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.bx-title1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    
+    padding-bottom: 20px;
+
+}
+.bx-body1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.i1{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+/* b2 */
+
+.b2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px -1px;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.b2:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bx-title2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+.bx-body2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.i2{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+/* b3 */
+
+.b3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px -1px;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.b3:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bx-title3{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+.bx-body3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.i3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+
+.boxes-heading{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.boxes::after{
+    content: "";
+  display:flex;
+  width: 15%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgb(255, 75, 8); /* Adjust the color as needed */
+  position: absolute;
+  border-radius: 15px;
+  bottom: -17px; /* Adjust the distance from the text as needed */
+  left: 625px;
+  top:1740px;
+}

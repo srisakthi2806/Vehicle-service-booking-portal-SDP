@@ -1,0 +1,280 @@
+
+.contact-page{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.cimg-h{
+    font-size: 55px;
+  }
+  .cimg-t{
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-55%,-145%);
+    font-size: 20px;
+  }
+.clin{
+  text-decoration: none;
+}
+
+  .clin.l1{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .clin.l2{
+    color:rgb(225,75,8);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+
+
+
+/*-----contact-box--------*/
+
+.contact-box{
+    
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -360px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+
+}
+.cb-1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    
+}
+.cb-title1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+    color:rgb(0, 0, 0);
+    
+}
+.cb-body1{
+    text-align: center;
+    font-size: 21px;
+    color: black;
+   
+    
+}
+
+.logo-1{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(225, 75, 8);
+    
+}
+
+/* card2 */
+
+.cb-2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+   
+    
+}
+
+.cb-title2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.cb-body2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.logo-2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(225, 75, 8);
+    
+}
+
+/* card3 */
+
+.cb-3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+  
+  
+}
+
+.cb-title3{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.cb-body3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.logo-3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(225, 75, 8);
+    
+}
+.logo-size{
+    height: 60px;
+    width: 60px;
+}
+
+.contact-img{
+    height:400px;
+    width:700px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+} 
+.img-t{
+    float: right;
+    width: 50%;
+    height:50%;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 24px;
+    padding-right: 85px;
+
+}
+
+.follow{
+    color: rgb(0, 0, 0);
+}
+  .followup {
+    text-decoration:none;
+    margin-top: 20px;
+    display: grid;
+    padding: 5px;
+    overflow: hidden;
+    color:rgb(225, 75, 8);
+    grid-template-columns: repeat(6, 45px);
+    grid-gap: 1px;
+    cursor: pointer;
+}
+.followups{
+    color:rgb(225, 75, 8);
+}
+
+
+
+/***********************form****************/
+.contimg{
+    height:500px;
+    width:650px;
+    padding-top: 55px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+} 
+.contact-form-container {
+    
+    transform: translate(5%, -100%);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 700px;
+}
+
+.contact-form-container h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-form-container h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3.5px;
+    border-radius: 15px;
+    background: #ff6600;
+    margin-top: 5px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #aaa;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.submit-button {
+    background-color: #e65500;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.submit-button:hover {
+    background-color: #ff6600;
+}
+
+
+.popup-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  

@@ -1,0 +1,534 @@
+
+
+.himg{
+  padding-top:20px;  
+  background-color: rgb(255, 255, 255); 
+  padding-bottom: 20px;
+  padding-left: 670px;
+}
+
+.intro{
+    position:absolute;
+    text-align: left;
+    left:5%;
+    font-size: 20px;
+    font-weight: 5px;
+    color: rgb(0, 0, 0);
+    top:20%;
+    
+    
+}
+.crtb {
+    cursor:pointer;
+    text-decoration: none;
+    color: rgb(252, 75, 8);
+    font-family: cursive;
+    font-weight: bold;
+  }
+ 
+.cont-txt{
+    
+    padding-top: 570px;
+    padding-left: 700px;
+    padding-right: 100px;
+    font-size: 18px;
+    font-weight: 30px;
+    top:100px;
+    text-align:justify;
+    margin-right: 25px;
+    position:absolute;
+    line-height: 200%;
+
+}
+.cont-h{
+    padding-top: 480px;
+    padding-left: 700px;
+    font-size: 35px;
+    font-weight: 110px;
+    top:100px;
+    text-align:center;
+    margin-right: 25px;
+    position: absolute;
+}
+.cont-h::after{
+    content: "";
+  display:flex;
+  width: 10%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgb(255, 75, 8); /* Adjust the color as needed */
+  position: absolute;
+  border-radius: 15px;
+  bottom: -15px; /* Adjust the distance from the text as needed */
+  left: 700px;
+}
+.cont-img{
+    height: 45%;
+    width: 37%;
+    position:relative;
+    padding-left: 90px;
+}
+.more-btn{
+    position: absolute;
+    margin-left: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+   text-decoration: none;
+   color:rgb(255, 255, 255);
+   background-color: rgb(252, 75, 8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 12%;
+    height: 50px;
+    text-align: center;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,.2,.4);
+    cursor: pointer;
+}
+
+
+.services{
+    position:fixed;
+    text-align: left;
+    left:0%;
+    color:rgb(0, 0, 0);
+    top:150%;
+    
+    
+}
+
+/*.img{
+    display: block;
+    object-fit: cover;
+}*/
+
+
+  /*----------centerpart--------*/
+  .centerpart{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0%;
+   
+}
+
+.h1{
+    padding-top: 30px;
+    text-align: center;
+    color:black;
+    font-size: 55px;
+    font-weight: 210px;
+}
+.h1::after{
+content: "";
+  display:flex;
+  width: 10%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgb(255, 75, 8); /* Adjust the color as needed */
+  position: absolute;
+  border-radius: 15px;
+  bottom: -25px; /* Adjust the distance from the text as needed */
+  left: 700px;
+  top:1230px;
+  
+}
+
+.content{
+    text-align:left;
+    color:rgb(0, 0, 0);
+    padding: 3px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 30px;
+    margin: 4px 10px;
+}
+
+/*cards*/
+/* card1*/
+
+
+.cards{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;    
+
+}
+.card-container1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 5px -1px;
+}
+.card-container1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 2px 0px;
+}
+.card-title1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    
+    padding-bottom: 10px;
+}
+
+.img-container1{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(252, 75, 8);
+    
+}
+
+/* card2 */
+
+.card-container2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 5px -1px;
+}
+.card-container2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 2px 0px;
+}
+.card-title2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-bottom: 10px;
+
+}
+
+.img-container2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(252, 75, 8);
+    
+}
+
+/* card3 */
+
+.card-container3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 5px -1px;
+}
+.card-container3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 2px 0px;
+}
+.card-title3{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body3{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.img-container3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(252, 75, 8);
+    
+}
+
+/* card4 */
+
+.card-container4{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 5px -1px;
+}
+.card-container4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 2px 0px;
+}
+.card-title4{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body4{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+.img-container4{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(252, 75, 8);
+    
+}
+
+
+
+.picture-heading{
+    text-align: center;
+    color:black;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    
+    font-size:55px;
+}
+.picture-heading::after{
+    content: "";
+  display:flex;
+  width: 10%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgb(255, 75, 8); /* Adjust the color as needed */
+  position: absolute;
+  border-radius: 15px;
+  bottom: -15px; /* Adjust the distance from the text as needed */
+  left: 690px;
+  top:1700px;
+}
+
+
+.cnct-heading{
+    text-align: center;
+    
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-size: 65px;
+}
+.cnct-heading::after{
+    content: "";
+  display:flex;
+  width: 10%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgb(255, 75, 8); /* Adjust the color as needed */
+  position: absolute;
+  border-radius: 15px;
+  bottom: -15px; /* Adjust the distance from the text as needed */
+  left: 690px;
+  top:3200px;
+}
+
+/*--------------contact box------------*/
+.cnct-box{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    
+
+}
+.cnct-1{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 400px;
+    border-radius: 20px;
+    height: 250px;
+    overflow:hidden;
+    box-shadow: 0px 0px 10px -1px;
+}
+
+/*.cnct-1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}*/
+.cnct-title1{
+    text-align: left;
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.cnct-body1{
+    text-align: left;
+    color: black;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+    
+}
+
+.ic-1{
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+    
+    text-align: left;
+    justify-content: space-around;
+    color:rgb(225, 75, 8);
+    
+}
+
+/* card2 */
+
+.cnct-2{
+    padding-left: 20px;
+    width: 500px;
+    height: 250px;
+    padding-top: 20px;
+    overflow:hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px -1px;
+}
+/*.cnct2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}*/
+.cnct-title2{
+    text-align: left;
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cnct-body2{
+    text-align: left;
+    color: black;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+
+}
+
+.ic-2{
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    justify-content: space-around;
+    color:rgb(225, 75, 8);
+    
+}
+
+.adv-head{
+    text-align: center;
+    font-size: 50px;
+    color:black;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+.adv-head::after{
+    content: "";
+  display:flex;
+  width: 10%;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgb(255, 75, 8); /* Adjust the color as needed */
+  position: absolute;
+  border-radius: 15px;
+  bottom: -15px; /* Adjust the distance from the text as needed */
+  left: 700px;
+  top:2580px;
+}
+.adv-box{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+.adv{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 1px -1px;
+    border-radius: 20px;
+    
+}
+.overlay{
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: white;
+    cursor: pointer;
+}
+
+.adv-con{
+    
+    font-size: 18px;
+    color:black;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.adv-box:hover .overlay{
+    opacity: 1;
+}
+.adv-t{
+    color:rgb(252, 75, 8);
+}
+
+
+.adv-img{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+/***********************scroll top***************/
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .scroll-button {
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .scroll-button p {
+    
+    font-size:x-large;
+    text-align:justify;
+    padding-top: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+  }
+  
+  .scroll-button:hover {
+    background-color: rgb(225, 75, 8);
+  }
+  

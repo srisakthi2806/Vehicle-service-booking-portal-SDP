@@ -1,0 +1,144 @@
+
+
+.line{
+    border: solid 1px;
+    color: black;
+}
+
+.foot{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap:30px;
+    padding: 0px 0px;
+    
+}
+.flogo{
+    padding-top: 15px;
+    padding-right: 400px;
+    
+   
+  }
+.sec-t{
+    top: 100px;
+    padding-left: 50px;
+}
+.sec1{
+    
+    background-color: white;
+    
+    padding-right: 11px;
+    padding-top: 0%;
+   
+}
+
+
+.sec1 p{
+    color:black;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.ic{
+    margin-top: 20px;
+    display: grid;
+    padding: 5px;
+    padding-left: 40px;
+    overflow: hidden;
+    color:rgb(225, 75, 8);
+    grid-template-columns: repeat(6, 45px);
+    grid-gap: 1px;
+    cursor: pointer;
+}
+
+
+/*.ic:hover{
+    color:rgb(200, 210, 10);
+    transform: scale(1.1);
+}*/
+
+.sec2{
+    padding:20px 0px;
+}
+.sec3{
+    padding:20px 0px;
+}
+.sec4{
+    padding:20px 0px;
+}
+.sec1 h2{
+    position: relative;
+    color:rgb(0, 0, 0);
+    font-weight: 500px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.sec2 h2{
+    position: relative;
+    color:rgb(0, 0, 0);
+    font-weight: 500px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.sec3 h2{
+    position: relative;
+    color:rgb(0, 0, 0);
+    font-weight: 500px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.sec4 h2{
+    position: relative;
+    color:rgb(0, 0, 0);
+    font-weight: 500px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.sec2 li {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    padding-left:1px;
+    margin:-32px;
+}
+.sec2 li:hover{
+    color: rgb(225, 75, 8);
+}
+
+.sec3 li {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    padding-left:1px;
+    margin:-32px;
+}
+.sec3 li:hover{
+    color: rgb(225, 75, 8);
+}
+
+.sec4{
+    
+    color:rgb(0, 0, 0);
+    
+    padding-right: 100px;
+    margin:-32px;
+    font-size: 15px;
+}
+.sec4 li a{
+    padding: 95px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    padding-left:1px;
+    margin:-32px;
+
+}
+
+.flinks{
+    text-decoration: none;
+    
+}
